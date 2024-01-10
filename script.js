@@ -8,7 +8,7 @@ document.querySelector("footer").innerHTML = `${gameName} Game &copy created by 
 let numbersOfTries = 5;
 let numbersOfletters = 6;
 let currentTry = 1;
-let numberOfHints = 2;
+let numberOfHints = 3;
 
 // Mange Words 
 let wordToGuess = "";
