@@ -5,14 +5,14 @@ document.querySelector("h1").innerHTML = gameName;
 document.querySelector("footer").innerHTML = `${gameName} Game &copy created by <a href="https://www.facebook.com/bavly.kamel.16" target="_blank">Bavly Kamel</a>`;
 
 // setting gamee options
-let numbersOfTries = 5;
+let numbersOfTries = 6;
 let numbersOfletters = 6;
 let currentTry = 1;
 let numberOfHints = 3;
 
 // Mange Words 
 let wordToGuess = "";
-const words = ["Create", "Update", "Delete", "Master", "Branch", "Mainly", "Elzero", "School", "Bavly."]
+const words = ["Create", "Update", "Delete", "Master", "Branch", "Mainly", "Elzero", "School", "Bavly.", "Sunset", "Marvel", "Castle", "Spirit", "Spirit", "Silver", "Impact", "Winter", "Breeze", "Horizon", "Radios", "Effort", "Kettle"]
 wordToGuess = words[Math.floor(Math.random() * words.length)].toLocaleLowerCase();
 let messageArea = document.querySelector(".message")
 //console.log(wordToGuess)
