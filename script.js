@@ -2,7 +2,7 @@
 let gameName = "Guess The Word";
 document.title = gameName;
 document.querySelector("h1").innerHTML = gameName;
-document.querySelector("footer").innerHTML = `${gameName} Game &copy created by <a href="https://www.facebook.com/bavly.kamel.16" target="_blank">Bavly Kamel</a>`;
+// document.querySelector("footer").innerHTML = `${gameName} Game &copy created by <a href="https://www.facebook.com/bavly.kamel.16" target="_blank">Bavly Kamel</a>`;
 
 // setting gamee options
 let numbersOfTries = 6;

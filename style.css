@@ -15,6 +15,18 @@ h1 {
     margin: 0 0 50px;
     background-color: white;
 }
+.profile {
+    font-size: 100px;
+    font-family: fantasy;
+    font-weight: 500;
+    height: 100vh;
+    background-color: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
 img {
     width: 81px;
     height: 80px;
@@ -163,7 +175,7 @@ img {
 }
 footer {
     text-align: center;
-    padding: 21px;
+    padding: 18px;
     /* position: fixed; */
     bottom: 0;
     left: 0;
@@ -171,6 +183,13 @@ footer {
     background-color: #333;
     color: white;
     font-weight: bold;
+
+    i {
+        padding-inline: 10px;
+    }
+}
+h4 {
+    margin: 10px;
 }
 a {
     text-decoration: none;
@@ -222,7 +241,7 @@ a {
     }
     footer {
         text-align: center;
-        padding: 24px 7px;
+        padding: 12px 7px 16px 7px;
         bottom: 0;
         left: 0;
         width: 100%;
@@ -230,5 +249,11 @@ a {
         color: white;
         font-weight: bold;
         font-size: 15px;
+        i {
+            padding-inline: 7px;
+        }
+    }
+    .profile {
+        font-size: 50PX;
     }
 }
