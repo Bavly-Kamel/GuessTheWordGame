@@ -15,6 +15,13 @@ h1 {
     margin: 0 0 50px;
     background-color: white;
 }
+img {
+    width: 82px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
 .guess-game {
     text-align: center;
     width: 1000px;
@@ -200,6 +207,17 @@ a {
     }
     .guess-game .key-colors {
     width: 345px;
+    }
+    h1 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    img {
+        width: 70px;
+        height: 80px;
+        position: absolute;
+        top: 0;
+        left: 6%;
     }
     footer {
         text-align: center;
