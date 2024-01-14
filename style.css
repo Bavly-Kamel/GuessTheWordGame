@@ -227,11 +227,11 @@ a {
     .guess-game .key-colors {
     width: 345px;
     }
-    h1 {
+    /* h1 {
         display: flex;
         justify-content: flex-end;
         padding-left: 30px;
-    }
+    } */
     img {
         width: 70px;
         height: 80px;

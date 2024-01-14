@@ -84,6 +84,7 @@ function generateInput() {
 const guessButton = document.querySelector(".check");
 guessButton.addEventListener("click", handleGuesses);
 console.log(wordToGuess)
+document.querySelector("h1").innerHTML = `The word is ${wordToGuess}`.toUpperCase()
 
 function handleGuesses() {
     let succesGuess = true;
